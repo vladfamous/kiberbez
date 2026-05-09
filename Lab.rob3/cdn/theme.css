@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  background-color: rgb(29, 24, 24);
+  color: rgba(255, 255, 255, 0.884);
+}
+#username {
+  color: brown;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#content {
+  text-align: center;
+  font-size: 24px;
+}
+.logo-container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(73, 68, 68, 0.281);
+  border-radius: 10px;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  width: 150px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.emails-container {
+  display: flex;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(73, 68, 68, 0.281);
+  border-radius: 10px;
+  border: 0;
+}
+.emails {
+  height: auto;
+  width: 200px;
+  border-right: 1px solid rgb(29, 24, 24);
+  text-align: center;
+}
+.current-email {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 500px;
+}
