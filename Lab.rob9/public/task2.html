@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 and Task 4</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Task 2 / Task 4: Booking Form</h1>
+
+      <h2>Client-side only</h2>
+      <form action="/submit-basic" method="POST">
+        <label for="name1">Name</label>
+        <input id="name1" name="name" type="text" required />
+
+        <label for="surname1">Surname</label>
+        <input id="surname1" name="surname" type="text" required />
+
+        <label for="email1">Email</label>
+        <input id="email1" name="email" type="email" required />
+
+        <label for="age1">Age</label>
+        <input id="age1" name="age" type="number" min="5" max="100" required />
+
+        <label for="bookingDate1">Date of Booking</label>
+        <input id="bookingDate1" name="bookingDate" type="date" required />
+
+        <button type="submit">Submit with HTML5 validation</button>
+      </form>
+
+      <hr />
+
+      <h2>Server-side secure</h2>
+      <form action="/submit-secure" method="POST">
+        <label for="name2">Name</label>
+        <input id="name2" name="name" type="text" required />
+
+        <label for="surname2">Surname</label>
+        <input id="surname2" name="surname" type="text" required />
+
+        <label for="email2">Email</label>
+        <input id="email2" name="email" type="email" required />
+
+        <label for="age2">Age</label>
+        <input id="age2" name="age" type="number" min="5" max="100" required />
+
+        <label for="bookingDate2">Date of Booking</label>
+        <input id="bookingDate2" name="bookingDate" type="date" required />
+
+        <button type="submit">Submit with server-side validation</button>
+      </form>
+    </div>
+  </body>
+</html>
