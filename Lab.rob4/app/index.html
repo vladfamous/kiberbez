@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neiger</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="http://localhost:7000/theme.css" />
+  </head>
+  <body>
+    <div>
+      <div class="logo-container">
+        <div>
+          <img src="http://localhost:7000/images.png" alt="Logo" />
+        </div>
+
+        <input id="username" placeholder="Enter username..." />
+      </div>
+      <div class="log-container">
+        <button onclick="login()">Login</button>
+        <div id="status"></div>
+      </div>
+    </div>
+
+    <div class="emails-container">
+      <div id="sidebar" class="emails">
+        <h3>Emails:</h3>
+      </div>
+      <div class="current-email">
+        <div id="content"></div>
+      </div>
+    </div>
+    <script src="http://localhost:7000/react-mock.js"></script>
+
+    <script src="http://localhost:4000/support.js"></script>
+
+    <script src="http://localhost:5000/weather.js"></script>
+  </body>
+</html>
