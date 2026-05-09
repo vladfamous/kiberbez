@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neiger</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="http://localhost:7000/theme.css" />
+  </head>
+  <body
+    style="
+      display: flex;
+      background-color: rgb(29, 24, 24);
+      color: rgba(255, 255, 255, 0.884);
+    "
+  >
+    <div class="logo-container">
+      <div>
+        <img src="http://localhost:7000/images.png" alt="Logo" />
+      </div>
+
+      <div id="username" style="font-size: 20px; text-align: center">
+        John Smith
+      </div>
+    </div>
+
+    <div class="emails-container">
+      <div id="sidebar" class="emails">
+        <h3>Emails:</h3>
+      </div>
+      <div class="current-email">
+        <div id="content" style="text-align: center; font-size: 24px"></div>
+      </div>
+    </div>
+
+    <script src="http://localhost:7000/react-mock.js"></script>
+
+    <script src="http://localhost:4000/support.js"></script>
+
+    <script src="http://localhost:5000/weather.js"></script>
+  </body>
+</html>
